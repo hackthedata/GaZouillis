@@ -6,13 +6,13 @@ from datetime import date
 from datetime import datetime  
 from datetime import timedelta  
 
-CONSUMER_KEY = '5brZIqbrFTJoVuvg9fL18Z1Tm'
-CONSUMER_SECRET = 'XPb4ApUv56oWT2PbRNQqOsyIbWjK6UejznSGWGDnZ0UrOes1To'
-ACCESS_KEY = '736907827135012864-CDfzHdtNqOD9rTV9KjvX3Dx3G0Oa6Yu'
-ACCESS_SECRET = 'PSObJn2AocDaZ9pzkmny7tYlXRJgJNjgog1VHA8a5L62V'
+CONSUMER_KEY = 'xxxxxxxxxxxxxx'
+CONSUMER_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+ACCESS_KEY = 'xxxxxxxxxxxxxx-xxxxxxxxxxxxxx'
+ACCESS_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 api = Twython(CONSUMER_KEY,CONSUMER_SECRET,ACCESS_KEY,ACCESS_SECRET)
-
+xxxxxxxxxxxxxx
 GPIO.setwarnings(False)
 
 url = 'http://192.168.1.76/gazou/site/controleur/Controleur-CalcDiff.php'
